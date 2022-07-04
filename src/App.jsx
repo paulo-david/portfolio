@@ -2,25 +2,20 @@ import './App.css';
 import React from 'react';
 import AboutMe from './components/aboutMe';
 import Projects from './components/projects';
+import Header from './components/header';
 
 function App() {
   return (
     <div className="App">
 
-      <h2>
+      <h1>
         Hi, I&apos;m Paulo David, front-end developer aspiring to become a full-stack developer
-      </h2>
+      </h1>
+
+      <Header />
+
       <AboutMe />
-
       <Projects />
-
-      <hr />
-      <hr />
-      <hr />
-      <hr />
-      <hr />
-      <hr />
-      <hr />
 
     </div>
   );

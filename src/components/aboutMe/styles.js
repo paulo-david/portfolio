@@ -12,6 +12,10 @@ export default styled.div`
     align-items: center;
     justify-content: center;
 
+    li{
+      margin-bottom: 5px;
+    }
+
     @media (max-width:475px){
       flex-direction: column;
     }
