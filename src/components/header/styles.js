@@ -5,7 +5,7 @@ export default styled.div`
   height: 200px;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 
   h2{
     width: 125px;
