@@ -1,3 +1,14 @@
+:root{
+  --yellow: #ffcc66;    
+  --lightBlue: #336799;
+  --darkBlue: #003466;
+}
+
+h1 {
+  font-size: 1.9em;
+  margin-left: 80px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

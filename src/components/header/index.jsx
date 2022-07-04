@@ -5,8 +5,8 @@ import Container from './styles';
 import AcrosticWord from '../acrosticWord';
 
 function Header() {
-  const [textCompressed, setTextCompressed] = useState(true);
-  console.log(setTextCompressed);
+  const [textCompressed, setTextCompressed] = useState(false);
+  const toggleCompressed = () => setTextCompressed(!textCompressed);
 
   const [suffix, setSuffix] = useState('ation');
   const [buttonText, setButtonText] = useState('DRY');
@@ -18,7 +18,7 @@ function Header() {
 
     } else if (suffix === '+ suffix') {
       setSuffix('');
-      setButtonText('Adds "ation" at the end of every word');
+      setButtonText('Add "ation" at the end of every word');
     } else {
       setSuffix('ation');
       setButtonText('DRY');
@@ -49,6 +49,9 @@ function Header() {
         )}
 
         <div id="canvas" />
+        <button type="button" onClick={toggleCompressed}>
+          !!!
+        </button>
       </div>
 
       <div id="button-container">

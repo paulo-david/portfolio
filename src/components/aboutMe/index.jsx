@@ -75,7 +75,16 @@ function AboutMe() {
               <li>
                 <RiMusic2Line />
                 &nbsp;
-                Songs from Eve, RHCP and Imagine Dragons
+                Songs from
+                {' '}
+                <a href="https://www.youtube.com/c/ooo0eve0ooo" target="_blank" rel="noreferrer">Eve</a>
+                ,
+                {' '}
+                <a href="https://www.youtube.com/channel/UCEuOwB9vSL1oPKGNdONB4ig" target="_blank" rel="noreferrer">RHCP</a>
+                {' '}
+                and
+                {' '}
+                <a href="https://www.youtube.com/channel/UCT9zcQNlyht7fRlcjmflRSA" target="_blank" rel="noreferrer">Imagine Dragons</a>
               </li>
             </ul>
           </li>

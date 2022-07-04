@@ -9,7 +9,9 @@ function App() {
     <div className="App">
 
       <h1>
-        Hi, I&apos;m Paulo David, front-end developer aspiring to become a full-stack developer
+        Hi, I&apos;m Paulo David,
+        <br />
+        front-end developer and
       </h1>
 
       <Header />
