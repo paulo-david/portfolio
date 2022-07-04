@@ -1,4 +1,3 @@
-import './App.css';
 import React from 'react';
 import AboutMe from './components/aboutMe';
 import Projects from './components/projects';
